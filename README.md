@@ -12,10 +12,12 @@ _MVC application to track vendor purchases and their orders for Pierre's Bakery.
 
 | Behavior | Input | Output |
 |---|:---:|:---:|
-||||
-||||
-||||
-||||
+|Homepage displays a welcome message and a link to a Vendor page.|User enters the following url into their search browser: localhost:5000/|A splash page is displayed welcoming the user (Pierre) and provides them with a link to a Vendor page|
+|The user clicks on the Vendor page link and is provided with a form they can fill out to create a new Vendor|User clicks Vendor page link|Vendors page displays a New Vendor form|
+|User fills out New Vendor form, clicks submit, and user is routed back to the homepage|New Vendor form inputs: "Vendor Name", "Vendor Description"|User is routed back to homepage "Welcome back Piere!"|
+|From the homepage the user can click on the Vendor page again and now they will be able to view a list of vendors with based off their previous inputs|User clicks link to Vendor page|Vendor page displays a list of vendors|
+|User can then click on a vendor's name and be routed to a Vendor's Orders page that displays all the specific vendor's orders and a link to add New Order|User clicks on vendor name|Vendor's orders "Order 1: 'Title', 'Description', 'Price', and 'Date'", and a link to add a New Order|
+|User clicks on New Order link, and fills out New Order form, clicks submit, and user is routed back to the homepage | New Order form inputs: "Title", "Description", "Price", and "Date"|User is routed back to homepage "Welcome back Piere!"|
 
 ## Setup/Installation Requirements
 
