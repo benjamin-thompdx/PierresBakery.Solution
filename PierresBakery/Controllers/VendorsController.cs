@@ -53,5 +53,12 @@ namespace PierresBakery.Controllers
       model.Add ("orders", vendorOrders);
       return View (model);
     }
+
+    [HttpPost("/vendors/delete")]
+    public ActionResult DeleteAll()
+    {
+      Vendor.ClearAll();
+      return View();
+    }
   }
 }
