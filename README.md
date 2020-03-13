@@ -1,12 +1,12 @@
 # _Pierre's Bakery | Vendor and Order Tracker_
 
-#### _A C# console to do list application with basic functionality to record Items._, _Mar. 11, 2020_
+#### _A C# MVC application to track vendors and their unique orders._, _Mar. 13, 2020_
 
 #### By _**Benjamin Thom**_
 
 ## Description
 
-_A to do list a user can utilize to manage and track tasks, items, etc._
+_MVC application to track vendor purchases and their orders for Pierre's Bakery._
 
 ## Project Specifications
 
@@ -24,18 +24,18 @@ _In Terminal:_
 * Navigate to where you want this application to be saved, i.e.:
 ```cd desktop```
 * Clone the file from GitHub with HTTPS
-```git clone https://github.com/benjamin-thompdx/WordCounter.Solution.git```
+```git clone https://github.com/benjamin-thompdx/PierresBakery.Solution.git```
 * Open file in your preferred text editor
-* On Mac: ```open -a {your text editor} WordCounter.Solution```
-* On Windows: ```WordCounter.Solution```
+* On Mac: ```open -a {your text editor} PierresBakery.Solution```
+* On Windows: ```PierresBakery.Solution```
 
 _Download Manually:_
 
-* Navigate to https://github.com/benjamin-thompdx/WordCounter.Solution.
+* Navigate to https://github.com/benjamin-thompdx/PierresBakery.Solution.
 * Click the green "Clone or Download" button.
 * Click "Download ZIP".
 * Click downloaded file to unzip.
-* Open folder called "WordCounter.Solution".
+* Open folder called "PierresBakery.Solution".
 
 _Note For Editors:_ 
 * Download the .NET Core SDK [Software Development Kit](https://dotnet.microsoft.com/download)
@@ -51,7 +51,7 @@ _No known bugs at this time._
 
 ## Support and contact details
 
-_Have a bug or an issue with this application? [Open a new issue](https://github.com/benjamin-thompdx/WordCounter.Solution/issues) here on GitHub._
+_Have a bug or an issue with this application? [Open a new issue](https://github.com/benjamin-thompdx/PierresBakery.Solution/issues) here on GitHub._
 
 ## Technologies Used
 * _Git_
