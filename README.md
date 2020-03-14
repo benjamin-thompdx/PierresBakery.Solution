@@ -12,12 +12,14 @@ _MVC application to track vendor purchases and their orders for Pierre's Bakery.
 
 | Behavior | Input | Output |
 |---|:---:|:---:|
-|Homepage displays a welcome message and a link to a Vendor page.|User enters the following url into their search browser: localhost:5000/|A splash page is displayed welcoming the user (Pierre) and provides them with a link to a Vendor page|
-|The user clicks on the Vendor page link and is provided with a form they can fill out to create a new Vendor|User clicks Vendor page link|Vendors page displays a New Vendor form|
-|User fills out New Vendor form, clicks submit, and user is routed back to the homepage|New Vendor form inputs: "Vendor Name", "Vendor Description"|User is routed back to homepage "Welcome back Piere!"|
-|From the homepage the user can click on the Vendor page again and now they will be able to view a list of vendors with based off their previous inputs|User clicks link to Vendor page|Vendor page displays a list of vendors|
-|User can then click on a vendor's name and be routed to a Vendor's Orders page that displays all the specific vendor's orders and a link to add New Order|User clicks on vendor name|Vendor's orders "Order 1: 'Title', 'Description', 'Price', and 'Date'", and a link to add a New Order|
-|User clicks on New Order link, and fills out New Order form, clicks submit, and user is routed back to the homepage | New Order form inputs: "Title", "Description", "Price", and "Date"|User is routed back to homepage "Welcome back Piere!"|
+|Homepage displays a welcome message and links to "View vendors" and "Add a new Vendor"|User enters the following url into their search browser: localhost:5000/|A splash page is displayed "Welcome Back, Pierre!"|
+|The user clicks on the "Add a new Vendor" link and is provided with a form they can fill out to create a new Vendor|User clicks Vendor page link|Vendors page displays a New Vendor form|
+|User fills out New Vendor form, clicks submit, and user is routed Vendors page |New Vendor form inputs: "Vendor Name", "Vendor Description"|User is routed to Vendors page|
+|From the Vendors page, the user can click on the vendor's name they just created for more details, the "Clear All Vendors" button, or the "Return to homepage" link|User clicks link to vendor's name|The user is routed to the specified Vendor Details page|
+|User can then click one of the following links: "Add a new order", "Return to vendor list", or "Return to homepage"|User clicks on "Add a new order"|User is provided with an order form for the specified vendor with the following inputs: "Order Title", Order Description", "Order Price", and "Order Date", and a button to "Add Order"|
+|User clicks on "Add Order" button and is routed to an Orders page for the specified vendor. The user can then click on the newly created order name to review order details, or one of the other following links: "Add a new order", "Return to vendor list", or "Return to homepage" |User clicks on the newly created order name|Useris provided with an order review with the following details: "Vendor", "Vendor Description", "Order", "Order Description", "Order Price", and "Order Date" along with the following links: "Add another order" and "Return to vendor list"|
+|User clicks on "Return to vendor list" and is routed back to the Vendors page. Use can now click on a vendor's name to view/add orders, click the "Clear All Vendors" button, or click the link to "Return to homepage"|User clicks the "Clear All Vendors" button|User is routed to a success page with a display stating, "Your vendor list has been cleared!" and is given the option to click a link to ""Return to vendor list"|
+|User clicks on "Return to vendor list" and is provided with a message stating, "No vendors have been added yet!", a button to "Clear All Vendors", and a link to "Return to homepage"|User click the "Return to homepage" link|User is provided with a "Welcome Back, Pierre!" message|
 
 ## Setup/Installation Requirements
 
